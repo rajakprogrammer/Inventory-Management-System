@@ -1,0 +1,411 @@
+.header{
+    color: #000;
+    height: 90px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    background-color: #fff;
+    color: #2ab0e1;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar-items{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-bar-links{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+	text-align: center;
+    
+}
+
+.divider{
+    color: #6b1a1a;
+}
+
+.container{
+    font-family: Arial;
+}
+
+.start-links{
+    text-decoration: none;
+    font-size: 18px;
+	text-align: center;
+    background-size: cover;
+}
+
+.head{
+    width: 25%;
+    color: #2ab0e1;
+}
+
+.main-photo{
+    width: 80%;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.main-body{
+    width: 100%;
+    text-align: center;
+}
+
+.main-control{
+    background-color: #fff;
+}
+
+.table-head{
+    width: 100%;
+}
+
+.table-main{
+    width: 100%;
+}
+
+.table-main  th{
+    color: #fff;
+}
+
+.table-main th{
+    background-color: #318bc7;
+}
+
+.table-main td{
+    text-align: center;
+}
+
+.table-main td img{
+    vertical-align: center;
+}
+
+.table-main, th, td{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #000;
+    width: cover;
+}
+
+.heading{
+    color: #16790b;
+    font-size: 40px;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-image{
+    width: 70%;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+.pic1{
+    background-image: url("godown1.jpg");
+    background-size: cover;
+}
+
+.pic2{
+    background-image: url("warehouse1.jpg");
+    background-size: cover;
+}
+
+.main-sizes{
+    width: 40%;
+    color: #2ca71e;
+}
+
+.main-head-size{
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.main-sizes-box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 5px 5px #e1b548;
+}
+
+.split1{
+    background-color: #6b1a1a;
+}
+
+.split2{
+    background-color: #000;
+    height: 0.5px;
+    width: 100%;
+}
+
+.img-home{
+    width: 350px;
+    height: 200px; 
+}
+
+.sub{
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    background-color: #58a0ec;
+    border-color: #fff;
+}
+
+.res{
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    background-color: #f35f5f;
+    border-color: #fff;
+}
+
+.form-text{
+    color: #5019ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-img{
+    margin-left: 250px;
+    height: 230px;
+    width: 380px;
+    opacity: 0.7;
+}
+
+.form-table{
+    width: 50%;
+}
+
+.control{
+    background-color: #2e947a;
+    height: 40px;
+    width: 80%;
+    text-decoration: none;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    border-color: #fff;
+    opacity: 0.75;
+}
+
+.control-links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+div.slide-right{
+    width:100%;
+    overflow:hidden;
+}
+
+div.slide-right div.inner{
+    animation: slide-right 4s;
+    margin-top:0%;
+}
+  
+@keyframes slide-right{
+    from{
+      margin-left: -100%;
+    }
+  
+    to{
+      margin-left: 0%;
+    }
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1);
+    opacity: 0.8;
+    box-shadow: 5px 5px #e1b548;
+}
+  
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+}
+  
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+  
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+}
+  
+.wrapper textarea{
+    resize: none;
+    height: 80px;
+}
+  
+.btn {
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #32e36d;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.barcoder{
+    color: #3e0c0c;
+}
+
+.imager{
+    text-align: center;
+}
+
+.product-name{
+    color: #3e0c0c;
+    text-align: center;
+}
+
+.product-code{
+    color: #3e0c0c;
+}
+
+.typer{
+    color: #3e0c0c;
+}
+
+.company{
+    color: #3e0c0c;
+}
+
+.action{
+    color: #3e0c0c;
+}
+
+.dropbtn {
+    background-color: #aa0404;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #3e0c0c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #3e8e41;
+}
+
+.submit-table tr td{
+    border: none;
+}
+
+.submit-table-part{
+    color: #3e0c0c;
+}
+
+#proname, #probar, #procode, #quan, #protype, #price, #descript{
+    resize: none;
+    color: #3e0c0c;
+}
+
+.id, .designer, .name, .phno, .emailer, .company, .dob{
+    color: #3e0c0c;
+}
+
+#usename, #useid, #usedesign, #useph, #use-eid, #usecomp, #usedob, #useage{
+    resize: none;
+    color: #3e0c0c;
+}
+
+.storage-id, .product, .storage-name, .storage-code, .capacity-taken, .total-capacity{
+    color: #3e0c0c;
+}
+
+.order-id, .customer-name, .customer-id, .date-in, .date-out{
+    color: #3e0c0c;
+}
+
+#ordid, #pro-name, #custid, #custname, #quan-pro, #price-pro, #date-in, #date-out{
+    resize: none;
+    color: #3e0c0c;
+}
+
+.regno, .invoicer, .supply-date, .item-name, .supplier-name, .gstin{
+    color: #3e0c0c;
+}
+
+#date-sup, #pro-in, #price-sup, #quan-sup, #gst-in, #invo-no, #sup-name, #regin{
+    resize: none;
+    color: #3e0c0c;
+}

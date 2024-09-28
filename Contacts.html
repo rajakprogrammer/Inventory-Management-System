@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Application</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="Inventory.css" rel="stylesheet"/>
+    </head>
+    <body class="pic2">
+        <div class="nav-bar">
+            <img src="ernota.jpg" height="70px" width="80px">
+            <div>
+                <ul class="nav-bar-items">
+                    <a href="Homepage.html" class="nav-bar-links">
+                        <li>Home</li>
+                    </a>
+                    <a href="Dashboard.html" class="nav-bar-links">
+                        <li>Dashbord</li>
+                    </a>
+                    <a href="Admin_Login.html" class="nav-bar-links">
+                        <li>Admin Login</li>
+                    </a>
+                    <a href="Staff_Login.html" class="nav-bar-links">
+                        <li>Staff Login</li>
+                    </a>
+                    <a href="Contacts.html" class="nav-bar-links">
+                        <li>Contacts</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <hr class="split1">
+        <div class="wrapper">
+            <h2>Contact us</h2>
+            <div id="error_message">
+               
+            </div>
+    
+            <form action="#" id="myform" onsubmit="return commentValidate()">
+              <div class="input_field">
+                  <input type="text" name="c_name" placeholder="Name" id="name">
+              </div>
+              <div class="input_field">
+                  <input type="text" name="c_subject" placeholder="Subject" id="subject">
+              </div>
+              <div class="input_field">
+                  <input type="text" name="c_phone" placeholder="Phone Number" id="phone">
+              </div>
+              <div class="input_field">
+                  <input type="text" name="c_email" placeholder="EmailId" id="email">
+              </div>
+              <div class="input_field">
+                  <textarea name="c_message" placeholder="Message" id="message"></textarea>
+              </div>
+              <div>
+                  <button type="submit" class="btn">Submit
+              </div>
+             
+            
+            </form>    
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>

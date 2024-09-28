@@ -1,0 +1,73 @@
+*{
+    margin:10;
+    padding: 0;
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+    /* color: white;
+    background-image: url("speed.jpg");
+    height: 100%; 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.heading{
+    width: 50%;
+     text-align: center;
+     font-size: 30px;
+     background-color: #2e947a;
+     color: #ffffff;
+     font-weight: bold;
+
+}
+.fm{
+    padding: 20px;
+    font-size: 25px;
+}
+.send{
+    margin-left: 6em;
+    width: 12em;
+    padding: .8em;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    overflow: hidden;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: large;
+    background-color:rgb(0, 0, 0) ;
+    color: yellow;
+}
+.send :hover{
+    transform: scale(1.09);
+    color: black;
+    font-size: 30px;
+}
+input[type="submit"]:hover{
+    text-decoration: underline;
+}
+ .r{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social_media{
+    display: flex;
+    background-color: black;
+}
+a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    line-height: 60px;
+    box-shadow:1px 2px 2px 1px yellow;
+}
+.footer1{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
